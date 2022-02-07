@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- CSS -->
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+    
+    <!-- Start -->
+    <section class="sign-in py-5 bg-light justify-items-center">
+    <div class="container">
+    	<div class="row justify-content-center">
+    		<div class="signin-form">
+    			<div class="signin-form-liner">
+    				<div class="signin-form-top">
+    					<h1 class="text-dark text-center">Sign In</h1>
+    					<p class="text-center mb-4">Sign in to your account using email and password provided during registration.</p>
+    					<form action="#">
+    						<div class="input-icon">
+    							<i class="bi bi-envelope position-absolute top-50 start-0 ms-3 translate-middle-y"></i>
+    							<input class="mb-4 form-control rounded ps-5" type="email" placeholder="Email" required >
+    						</div>
+    						<div class="input-icon">
+    							<i class="bi bi-lock position-absolute top-50 start-0 ms-3 translate-middle-y"></i>
+    							<input type="password" placeholder="password" required class="mb-4 form-control rounded ps-5 ">
+    						</div>
+    						<div class="mb-4 d-flex justify-content-between">
+    							<div class="input-check-box">
+    								<input type="checkbox" id="keep-sign"  class="form-check-input">
+    								<label for="keep-sign">Keep me signed in</label>
+    							</div>
+    							<div class="forgot-password">
+    								<a href="#" class="text-secondary text-decoration-none">Forgot password?</a>
+    							</div>
+    						</div>
+    						<button type="submit" class="btn btn-primary mb-4 d-block w-100">Sign In</button>
+    						<p class="text-center">Don't have an account?<a href="#" class="text-primary">Sign Up</a></p>
+    					</form>
+    				</div>
+    				<div class="signin-form-bottom border-top pt-3 text-center">
+    					<p>Or sign in with</p>
+    					<a href="#"><i class="bi bi-facebook"></i></a>
+    					<a href="#"><i class="bi bi-twitter"></i></a>
+    					<a href="#"><i class="bi bi-linkedin"></i></a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    	
+    </section>
+   
+    <!-- End -->
+
+    <!-- JS -->
+    <script src="vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
